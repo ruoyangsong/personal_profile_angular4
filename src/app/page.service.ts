@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class PageService {
   private pageInfo = {
-    backgroundImage: "http://www.schoolsplus.co.uk/wp-content/uploads/2017/06/technology.jpg",
+    backgroundImage: 'assets/background.jpeg',
     showHeader: true,
     showProfile: true,
     profileBackgroundColor: "white",
@@ -17,8 +17,8 @@ export class PageService {
     awardsBackgroundColor: "white",
     showContact: true,
     contactBackgroundColor: "rgb(66, 73, 73)",
-    resumeTitle: "[Your online resume's title here]",
-    projectLink: "https://github.com/Wrinth/personal_profile_angular4"
+    resumeTitle: 'Full Stack Developer',
+    projectLink: 'https://github.com/ruoyangsong'
   };
 
   getPageInfo() {

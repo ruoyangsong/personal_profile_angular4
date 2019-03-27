@@ -3,19 +3,19 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class UserService {
   private userInfo = {
-    name: "[Your name here]",
-    jobTitle: "[Job Title here]",
-    aboutMe: "[Place your description here... For instance: I am an allround web developer. I am a senior programmer with good knowledge of front-end techniques. I love structure and order and I also stand for quality. I love spending time on fixing little details and optimizing web apps. Also I like working in a team, you'll learn faster and much more. As the saying goes: 'two heads are better than one'.]",
-    profilePicture: "http://i0.wp.com/cdn.techgyd.com/save-whatsapp-profile-picture-image3.jpg?resize=337%2C337",
-    location: "[Your location here]",
-    email: "[Your email here]",
-    devpostAccount: "",
-    facebookAccount: "",
-    githubAccount: "[Your GitHub account here]",
-    googleAccount: "",
-    linkedinAccount: "",
-    twitterAccount: "",
-    otherAccount: ""
+    name: 'Ruoyang (Brandon) Song',
+    jobTitle: 'Full Stack developer',
+    aboutMe: 'Driven and fast-learning software developer with proven problem-solving and communication skills. I’m seeking a developer position with a fast-growing technology company where I can use my experience in Javascript, Go and Python.',
+    profilePicture: 'assets/profile.JPG',
+    location: 'Vancourver',
+    email: 'ruoyang@ualberta/ca',
+    devpostAccount: '',
+    facebookAccount: '',
+    githubAccount: 'https://github.com/ruoyangsong',
+    googleAccount: '',
+    linkedinAccount: 'https://www.linkedin.com/in/ruoyangsong/',
+    twitterAccount: '',
+    otherAccount: ''
   };
 
   getUserInfo() {

@@ -3,81 +3,79 @@ import { Injectable } from '@angular/core';
 @Injectable()
 export class UserAbilitiesService {
   private abilitiesInfo = {
-    myAbilities: "[Your abilities details here]",
+    myAbilities: 'The technology of the industry is growing fast than you can imagine, especially for the last decade. I want to upgrade myself all the time, so I could create any software that could helps people.',
     skills: [
       {
-        skillName: "[Skill name]",
+        skillName: "Html",
         proficiency: 5 //"[5 to 0]"
       },
       {
-        skillName: "[Skill name]",
-        proficiency: 4 //"[5 to 0]"
-      },
-      {
-        skillName: "[Skill name]",
-        proficiency: 3 //"[5 to 0]"
-      },
-      {
-        skillName: "[Skill name]",
-        proficiency: 2 //"[5 to 0]"
-      },
-      {
-        skillName: "[Skill name]",
-        proficiency: 1 //"[5 to 0]"
-      }
-    ],
-    languages: [
-      {
-        languageName: "[Language name]",
-        level: "[Level here]",
+        skillName: "Css",
         proficiency: 5 //"[5 to 0]"
       },
       {
-        languageName: "[Language name]",
-        level: "[Level here]",
+        skillName: "Javascript",
+        proficiency: 5 //"[5 to 0]"
+      },
+      {
+        skillName: "Angular Framework",
+        proficiency: 5 //"[5 to 0]"
+      },
+      {
+        skillName: "KnockoutJS Framework",
         proficiency: 4 //"[5 to 0]"
       },
       {
-        languageName: "[Language name]",
-        level: "[Level here]",
+        skillName: "Python",
+        proficiency: 4//"[5 to 0]"
+      },
+      {
+        skillName: "Golang",
+        proficiency: 4 //"[5 to 0]"
+      },
+      {
+        skillName: "SQL",
+        proficiency: 4 //"[5 to 0]"
+      },
+      {
+        skillName: "C++",
         proficiency: 3 //"[5 to 0]"
       },
       {
-        languageName: "[Language name]",
-        level: "[Level here]",
-        proficiency: 2 //"[5 to 0]"
-      },
-      {
-        languageName: "[Language name]",
-        level: "[Level here]",
-        proficiency: 1 //"[5 to 0]"
+        skillName: "Data Structure and Algorithm",
+        proficiency: 4 //"[5 to 0]"
       }
     ],
     tools: [
       {
-        toolName: "[Tool name]",
-        year: "[Used Year Here]",
+        toolName: "Git",
+        year: "4 years",
         proficiency: 5 //"[5 to 0]"
       },
       {
-        toolName: "[Tool name]",
-        year: "[Used Year Here]",
+        toolName: "Linux Ubuntu/ Mac OS",
+        year: "3 years",
         proficiency: 4 //"[5 to 0]"
       },
       {
-        toolName: "[Tool name]",
-        year: "[Used Year Here]",
-        proficiency: 3 //"[5 to 0]"
+        toolName: "Jira",
+        year: "2 year",
+        proficiency: 4 //"[5 to 0]"
       },
       {
-        toolName: "[Tool name]",
-        year: "[Used Year Here]",
-        proficiency: 2 //"[5 to 0]"
+        toolName: "Jenkins",
+        year: "2 years",
+        proficiency: 4 //"[5 to 0]"
       },
       {
-        toolName: "[Tool name]",
-        year: "[Used Year Here]",
-        proficiency: 1 //"[5 to 0]"
+        toolName: 'Docker',
+        year: "1 year",
+        proficiency: 4 //"[5 to 0]"
+      },
+      {
+        toolName: 'Kubernetes',
+        year: "1 year",
+        proficiency: 4 //"[5 to 0]"
       }
     ]
   };

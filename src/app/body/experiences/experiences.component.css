@@ -12,5 +12,6 @@
 }
 
 #experiences .experience {
+  width: 150%;
   margin-bottom: 20px;
 }
