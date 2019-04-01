@@ -7,9 +7,9 @@ import {PageService} from "../page.service";
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
-  private pageInfo;
+  public pageInfo;
 
-  constructor(private pageService: PageService) { }
+  constructor(public pageService: PageService) { }
 
   ngOnInit() {
     this.pageInfo = this.pageService.getPageInfo();

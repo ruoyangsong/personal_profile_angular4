@@ -7,9 +7,9 @@ import {UserService} from "../../../user.service";
   styleUrls: ['./about-me.component.css']
 })
 export class AboutMeComponent implements OnInit {
-  private userInfo;
+  public userInfo;
 
-  constructor(private userService: UserService) { }
+  constructor(public userService: UserService) { }
 
   ngOnInit() {
     this.userInfo = this.userService.getUserInfo();

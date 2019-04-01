@@ -8,13 +8,13 @@ import {UserService} from "../../../user.service";
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent implements OnInit {
-  private userInfo;
-  private userAbilitiesInfo;
-  private arraylength;
-  private skillsList1 = [];
-  private skillsList2 = [];
+  public userInfo;
+  public userAbilitiesInfo;
+  public arraylength;
+  public skillsList1 = [];
+  public skillsList2 = [];
 
-  constructor(private userService: UserService, private userAbilitiesService: UserAbilitiesService) { }
+  constructor(public userService: UserService, public userAbilitiesService: UserAbilitiesService) { }
 
   ngOnInit() {
     this.userInfo = this.userService.getUserInfo();

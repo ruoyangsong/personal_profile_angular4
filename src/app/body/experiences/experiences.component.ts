@@ -9,10 +9,10 @@ import {PageService} from "../../page.service";
   providers: [UserExperiencesService]
 })
 export class ExperiencesComponent implements OnInit {
-  private userExperiencesInfo;
-  private pageInfo;
+  public userExperiencesInfo;
+  public pageInfo;
 
-  constructor(private userExperiencesService: UserExperiencesService, private pageService: PageService) { }
+  constructor(public userExperiencesService: UserExperiencesService, public pageService: PageService) { }
 
   ngOnInit() {
     this.userExperiencesInfo = this.userExperiencesService.getExperiencesInfo();

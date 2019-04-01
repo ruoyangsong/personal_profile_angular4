@@ -7,12 +7,12 @@ import {UserAbilitiesService} from "../user-abilities.service";
   styleUrls: ['./tools.component.css']
 })
 export class ToolsComponent implements OnInit {
-  private userAbilitiesInfo;
-  private arraylength;
-  private toolsList1 = [];
-  private toolsList2 = [];
+  public userAbilitiesInfo;
+  public arraylength;
+  public toolsList1 = [];
+  public toolsList2 = [];
 
-  constructor(private userAbilitiesService: UserAbilitiesService) { }
+  constructor(public userAbilitiesService: UserAbilitiesService) { }
 
   ngOnInit() {
     this.userAbilitiesInfo = this.userAbilitiesService.getAbilitiesInfo();

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class PageService {
-  private pageInfo = {
+  public pageInfo = {
     backgroundImage: 'assets/background.jpeg',
     showHeader: true,
     showProfile: true,

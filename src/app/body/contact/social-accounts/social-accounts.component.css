@@ -12,8 +12,8 @@ a .icon {
   margin-right: 20px;
 }
 
-.icon.icon-twitter {
-  background-position: 0px 0px;
+.icon.icon-tel {
+  background-position: 0px -64px;
 }
 
 .icon.icon-linkedin {
@@ -23,6 +23,7 @@ a .icon {
 .icon.icon-email {
   background-position: 0px -96px;
 }
+
 
 .icon {
   display: inline-block;

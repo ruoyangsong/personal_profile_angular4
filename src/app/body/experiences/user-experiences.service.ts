@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class UserExperiencesService {
-  private experiencesInfo = {
+  public experiencesInfo = {
     myExperiences: 'Importants thins in my life: Family, friends, coding and calligraphy',
     educations: [
       {
@@ -16,7 +16,7 @@ export class UserExperiencesService {
     ],
     careers: [
       {
-        companyName: 'Vendasta Technologies Inc.',
+        companyName: 'Vendasta Technologies',
         startDate: 'January 2018',
         endDate: 'January 2019',
         jobTitle: 'Developer Internship',
@@ -25,9 +25,9 @@ export class UserExperiencesService {
                   'Developed backend API components and database transactions with Python and Go.',
                   'Deployed projects using Docker and Kubernetes.',
                   'Authored test plans and cases, conduct security and unit tests and debug at source level.',
-                  'Worked with clients and customer servicer, analyzed and troubleshoot reported bugs.'
+                  'Worked with clients and customer services, analyzed and troubleshoot reported bugs.'
                 ],
-        location: 'Saskatoon',
+        location: 'Saskatoon, SK',
         companyLink: 'https://www.vendasta.com/'
       },
       {

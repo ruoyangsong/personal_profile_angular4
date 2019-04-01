@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 
 @Injectable()
 export class UserAbilitiesService {
-  private abilitiesInfo = {
+  public abilitiesInfo = {
     myAbilities: 'The technology of the industry is growing fast than you can imagine, especially for the last decade. I want to upgrade myself all the time, so I could create any software that could helps people.',
     skills: [
       {
@@ -74,6 +74,11 @@ export class UserAbilitiesService {
       },
       {
         toolName: 'Kubernetes',
+        year: "1 year",
+        proficiency: 4 //"[5 to 0]"
+      },
+      {
+        toolName: 'Apache 2',
         year: "1 year",
         proficiency: 4 //"[5 to 0]"
       }

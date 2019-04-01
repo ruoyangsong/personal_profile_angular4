@@ -1,7 +1,6 @@
-<nav class="navbar navbar-default" id="sidebar" role="navigation">
-  <!-- Brand and toggle get grouped for better mobile display -->
+<nav class="navbar navbar-default navbar-fixed-top hidden-xs" id="sidebar" role="navigation">
   <div class="navbar-header">
-    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="navigationbar">
       <span class="sr-only">Toggle navigation</span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
@@ -10,7 +9,7 @@
   </div>
 
   <!-- Collect the nav links, forms, and other content for toggling -->
-  <div class="navbar-collapse navbar-ex1-collapse collapse">
+  <div class="navbar-collapse navbar-ex1-collapse collapse" id="navigationbar">
     <ul class="nav navbar-nav">
       <li class="" *ngIf="pageInfo['showProfile']"><a href="#profile">Profile</a></li>
       <li class="" *ngIf="pageInfo['showExperiences']"><a href="#experiences">Experiences</a></li>

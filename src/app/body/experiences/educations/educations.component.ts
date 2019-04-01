@@ -7,9 +7,9 @@ import {UserExperiencesService} from "../user-experiences.service";
   styleUrls: ['./educations.component.css']
 })
 export class EducationsComponent implements OnInit {
-  private userEducationsInfo;
+  public userEducationsInfo;
 
-  constructor(private userExperiencesService: UserExperiencesService) { }
+  constructor(public userExperiencesService: UserExperiencesService) { }
 
   ngOnInit() {
     this.userEducationsInfo = this.userExperiencesService.getExperiencesInfo().educations;
